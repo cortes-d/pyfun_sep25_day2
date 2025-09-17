@@ -1,0 +1,28 @@
+
+"""
+The map() function
+"""
+
+d1=[2,3,4,5,6,10,23]
+print(d1)
+
+# Version 1
+
+result=[]
+for e in d1:
+    result.append(e**3)
+print(result)
+
+# Version 2: here a list comprehension is used
+
+result=[e**3 for e in d1]
+print(result)
+
+# Version 3:
+ 
+def fct(arg):
+    return arg**3
+
+result=list(map(fct, d1))
+
+print(result)
