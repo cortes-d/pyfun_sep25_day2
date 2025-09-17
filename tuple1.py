@@ -15,6 +15,10 @@ print(data, type(data))
 
 for e in data:
     print(e)
+
+print("size of data is ",len(data))
+
+print(data[1])
     
 
 
