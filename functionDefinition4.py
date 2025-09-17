@@ -1,5 +1,6 @@
 def mysum(*args):
     """
+    A docstring:
     mysum is a function whihch purpose is ....
     ....
     Parameters
@@ -18,5 +19,9 @@ def mysum(*args):
     
    
 result=mysum(2,7,8,24,2,1,2) # positional arguments
+print("result is", result)
+result=mysum() # positional arguments
+print("result is", result)
+result=mysum(12,56) # positional arguments
 print("result is", result)
 
